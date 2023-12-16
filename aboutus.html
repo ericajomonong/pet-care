@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETCARE</title>
+</head>
+<style>
+    * {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+
+    .banner {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(pets.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .navbar {
+        width: 85%;
+        margin: auto;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .PETS {
+        width: 120px;
+        cursor: pointer;
+        size: 2px;
+    }
+
+    .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+    }
+
+    .navbar ul li a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .navbar ul li::after {
+        content: '';
+        height: 3px;
+        width: 0;
+        background: #009688;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+    }
+
+    .navbar ul li:hover::after {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: #f8f7f7;
+    }
+
+    .content h1 {
+        font-size: 70px;
+        margin-top: 80px;
+
+    }
+
+    .content p {
+        margin: 20px auto;
+        font-weight: 100;
+        line-height: 25px;
+    }
+</style>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="logo (2).png" alt="PETS">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutus.html"><strong style="color: gold">ABOUT US</strong></a></li>
+                <li><a href="healthcare.html">Animals Health</a></li>
+                <li><a href="PETS.html">PETS</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>hello there!</h1>
+            <p>🐾 Welcome to the world of Pet Care, where love, compassion, and furry companionship unite! 🐾</p>
+            <p>At Pet Care, we understand that your pets are not just animals; they're cherished members of <br>
+                your family. Whether you're a seasoned pet parent or considering bringing a new bundle of <br>
+                joy into your home, our dedicated community is here to guide you on the journey of providing <br>
+                the best care for your beloved furry, feathered, or scaled friends. <br></p>
+        </div>
+    </div>
+
+</body>
+
+</html>

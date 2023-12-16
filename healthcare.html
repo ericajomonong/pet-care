@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETCARE</title>
+</head>
+<style>
+    body {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(pets.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .banner {
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    .navbar {
+        width: 85%;
+        margin: auto;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .PETS {
+        width: 120px;
+        cursor: pointer;
+        size: 2px;
+    }
+
+    .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+    }
+
+    .navbar ul li a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .navbar ul li::after {
+        content: '';
+        height: 3px;
+        width: 0;
+        background: #009688;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+    }
+
+    .navbar ul li:hover::after {
+        width: 100%;
+    }
+    button {
+        width: 200px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid #009688;
+        background: transparent;
+        color: #fcf9f9;
+        cursor: pointer;
+        position: relative;
+    }
+
+    span {
+        background: #009688;
+        height: 100%;
+        width: 0;
+        border-radius: 25px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transition: 0.5s;
+    }
+
+    button:hover span {
+        width: 100%;
+    }
+
+    button:hover {
+        border: none;
+    }
+    .laman{
+        color: white;
+    } 
+
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="logo (2).png" alt="PETS">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="healthcare.html"><strong style="color: gold">Animals Health</strong></a></li>
+                <li><a href="PETS.html">PETS</a></li>
+            </ul>
+        </div>
+            <div class="laman">
+                <div class="laman1">
+                <img src="download.jpg" alt="">
+                <h2>Regular Veterinary Check-ups:</h2>
+                <ul class="sulat">
+                    <li>Schedule routine check-ups for your pet with a veterinarian. These visits can help catch any potential health issues early.</li>
+                </ul>
+                <br>
+                <img src="download (1).jpg" alt="">
+                <h2>Balanced Diet:</h2>
+                <ul class="sulat">
+                    <li>Provide a well-balanced and nutritious diet suitable for your pet's species, age, and health condition.</li>
+                    <li>Avoid feeding pets human food, especially items that can be toxic to them.</li>
+                </ul>
+                <br>
+                <img src="download (2).jpg" alt="">
+                <h2>Exercise:</h2>
+                <ul class="sulat">
+                    <li>Engage your pet in regular physical activity to maintain a healthy weight and promote overall well-being.</li>
+                </ul>
+                <br>
+                <img src="download (3).jpg" alt="">
+                <h2>Vaccinations and Preventive Care:</h2>
+                <ul class="sulat">
+                    <li>Ensure your pet is up-to-date on vaccinations and necessary preventive medications (like flea/tick preventives).</li>
+                </ul>
+            </div>
+               <div  class="laman2">
+                <img src="download (4).jpg" alt="">
+                <h2>Dental Care:</h2>
+                <ul class="sulat">
+                    <li>Practice good dental hygiene for your pet. Brush their teeth regularly or use dental treats/toys to promote oral health.</li>
+                </ul>
+                <br>
+                <img src="download (5).jpg" alt="">
+                <h2>Grooming:</h2>
+                <ul class="sulat">
+                    <li>Regular grooming, such as brushing their fur and keeping nails trimmed, helps maintain their hygiene and overall health.</li>
+                </ul>
+                <br>
+                <img src="download (6).jpg" alt="">
+                <h2>Pet-proofing:</h2>
+                <ul class="sulat">
+                    <li>Create a safe environment for your pet by removing any hazardous items they might ingest or be injured by.</li>
+                </ul>
+                <br>
+                <img src="download (7).jpg" alt="">
+                <h2>Mental Stimulation:</h2>
+                <ul class="sulat">
+                    <li>Be observant of any changes in behavior, eating habits, or physical appearance that might indicate illness. Contact your vet if you notice anything unusual.</li>
+                </ul>
+            </div>
+            </div>
+        
+    </div>
+   
+
+</body>
+
+</html>
